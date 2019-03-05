@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A10146B-622A-81C0-E46F-A7081F13E39E" name="TERMIN">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:34:05 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DATA" id="7B9735AD-84FE-C9B3-752D-6E2ABD7F2AE4">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:34:45 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA_WARSZTATU" id="E92F5368-CAC3-7382-D530-F65CE2E4C54F">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:36:13 UTC</createdTime>
+<generatorID>81AA556D-C3CA-E6B7-E36B-66081FE8ECE4</generatorID>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<referedAttribute>30680BE4-8AB3-6854-7E6A-F5EF2A2795CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95FD94D6-8946-90E4-6A5E-8AEB73C85C1C" name="TERMIN PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:35:11 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B9735AD-84FE-C9B3-752D-6E2ABD7F2AE4</attributeRef>
+<attributeRef>E92F5368-CAC3-7382-D530-F65CE2E4C54F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

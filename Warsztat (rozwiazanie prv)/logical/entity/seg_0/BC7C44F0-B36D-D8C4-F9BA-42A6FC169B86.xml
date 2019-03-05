@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC7C44F0-B36D-D8C4-F9BA-42A6FC169B86" name="TERMIN">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:17:32 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_TERMINU" id="9110A071-8A24-B4F6-3E50-91061F72687E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:17:45 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA" id="73D0ED81-8D67-275D-11F0-300BFDF43A45">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:17:55 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="939760BB-6936-D5E4-1DD7-074982335A41" name="TERMINY PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:17:52 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9110A071-8A24-B4F6-3E50-91061F72687E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

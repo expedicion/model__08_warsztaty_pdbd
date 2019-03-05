@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CFA9D751-8C84-98BE-4A24-CFC1C11E2EAE" name="OSOBA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:34:12 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OSOBY" id="755B99F6-FBE1-8366-48A1-656DACA1EF65">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:36:48 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIE" id="72A38453-E2A4-C6D5-3A58-EE1A15A9B47E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:36:59 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWISKO" id="FCD5FFA3-C282-83FA-4EC4-03AB74D1514C">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:37:04 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76F0EB45-668E-1EE8-B1AF-889E87C0843F" name="OSOBA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:36:57 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>755B99F6-FBE1-8366-48A1-656DACA1EF65</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

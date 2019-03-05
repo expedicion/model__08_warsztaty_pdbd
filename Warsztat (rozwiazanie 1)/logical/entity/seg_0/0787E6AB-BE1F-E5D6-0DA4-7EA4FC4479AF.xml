@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0787E6AB-BE1F-E5D6-0DA4-7EA4FC4479AF" name="OCENA">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:33:58 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NAZWA_OCENY" id="B1E0F894-9270-57C7-85E0-B5E68C4BD168">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:37:34 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1713A080-DA9D-246D-8400-B474E8C23EDD" name="OCENA PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:37:42 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 1)</ownerDesignName>
+<engineerTo>
+<item key="EE2CDF2A-47EC-C907-664E-DB50B8EE1DF4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B1E0F894-9270-57C7-85E0-B5E68C4BD168</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

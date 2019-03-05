@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="376191F6-7777-BB5E-351F-B163DE6E464E" name="WARSZTAT">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:16:01 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_WARSZTATU" id="E3AAE961-8C8A-0E30-8172-9052979184CD">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:16:10 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="B293C3EE-2503-9990-A17D-86744EA7C8F9">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:16:24 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A776F93-C5B0-C2BE-4AA4-CC0C95FD7891" name="WARSZTAT PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:16:22 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3AAE961-8C8A-0E30-8172-9052979184CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

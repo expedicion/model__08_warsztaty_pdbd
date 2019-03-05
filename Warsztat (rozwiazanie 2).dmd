@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Warsztat (rozwiazanie 2)" id="1DA2061B-00C3-FDE1-5B36-BBFF514B854A" version="3.5">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:04:59 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie 2)</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>1DA2061B-00C3-FDE1-5B36-BBFF514B854A</designId>
+</OSDM_Design>

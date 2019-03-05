@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDFAABB0-59C2-A4B3-1F3E-9659AC855628" name="GLOSOWANIE">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:18:09 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_OCENY" id="0C0F1385-6AB0-C26F-C2AA-41913960D41E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:24:52 UTC</createdTime>
+<generatorID>E137DF6A-310D-856C-C187-582611B68DA1</generatorID>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<referedAttribute>FCC90422-BCDE-9E51-D559-0FBA27D89FC9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CZLONKA" id="73FE7B5D-88F5-0C1A-DAC6-4236582F3BE7">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:25:33 UTC</createdTime>
+<generatorID>ADF9D147-8907-3B5D-19AE-755589CA010D</generatorID>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<referedAttribute>78231A57-17BC-595D-E644-5FC9349AEF83</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_WARSZTATU" id="DC8AFE57-8050-9D2D-3C1B-814C657E851E">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:26:06 UTC</createdTime>
+<generatorID>DCBDA2E7-BDBD-B78B-6D50-7F5EF83A3255</generatorID>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<referedAttribute>E3AAE961-8C8A-0E30-8172-9052979184CD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TERMINU" id="18393D57-80FF-C553-FA60-E75F39FBCFF3">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:26:27 UTC</createdTime>
+<generatorID>2D82E451-DDB1-1D72-0255-8AC7EC276E0B</generatorID>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<referedAttribute>9110A071-8A24-B4F6-3E50-91061F72687E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3718EDD8-9D8D-79CD-0D0A-75A7D8B7CDE2" name="GLOSOWANIE PK">
+<createdBy>Użytkownik WEiTI</createdBy>
+<createdTime>2018-11-24 12:20:58 UTC</createdTime>
+<ownerDesignName>Warsztat (rozwiazanie prv)</ownerDesignName>
+<engineerTo>
+<item key="BC39E22A-1088-273E-3AD4-EA3179A5CB99" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0C0F1385-6AB0-C26F-C2AA-41913960D41E</attributeRef>
+<attributeRef>73FE7B5D-88F5-0C1A-DAC6-4236582F3BE7</attributeRef>
+<attributeRef>18393D57-80FF-C553-FA60-E75F39FBCFF3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
